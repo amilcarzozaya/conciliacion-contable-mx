@@ -1,0 +1,29 @@
+# Datos contables y fiscales: nunca se suben por accidente.
+# Si agregas un ejemplo SIMULADO, fuerza su inclusión con: git add -f examples/archivo.xlsx
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+*.xml
+*.pdf
+
+# Carpetas de trabajo
+entradas/
+salidas/
+datos/
+outputs/
+
+# Secretos
+.env
+.env.*
+*.pem
+*.key
+
+# Sistema y herramientas
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.venv/
+.idea/
+.vscode/
